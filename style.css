@@ -1,0 +1,136 @@
+*{
+    box-sizing:content-box;
+    padding: 0;
+    margin: 0;
+}
+.flex1{
+    display: flex;
+}
+.container{
+    position: relative;
+    color: white;
+    width: 630px;
+    height: 600px;
+    text-align: center;
+}
+.header-container{
+    margin-top: 6rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.container1{background-color: black;}
+.container1 ul{
+    margin-top: 8rem;
+}
+.container1 ul li{
+    margin-bottom: 2rem;
+    padding: 10px;
+}
+.home-color:hover{
+    background-color: rgb(160, 160, 243);;
+}
+.mywork-color:hover{
+    background-color:rgb(87, 47, 47);
+}
+.container1 ul li a{
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+   
+}
+.container1b{
+    background-color:rgb(160, 160, 243);
+}
+.img-about img{
+    width: 100%;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 1rem;
+}
+.about-para{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+
+}
+.flex2
+{
+    display: flex;
+}
+.imag-portfolio{
+    display: flex;
+}
+.imag-portfolio{
+    position: relative;
+    margin-top: 1rem;
+    margin-left: 1srem;
+}
+.imag-portfolio img{
+    width: 310px;
+    height: 120px;
+}
+.container2{
+    background: rgb(87, 47, 47);
+}
+.p{
+    margin-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+.container2b{
+    background-color: rgb(81, 81, 253);
+}
+.table-first-try{
+    margin-left: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+position: relative;    
+}
+.color-white{
+    
+   color: black !important;
+    background-color: #fff;
+}
+.spacing-table{
+    padding: 1rem;
+}
+
+
+@media screen and (max-width:760px) {
+     .flex1{
+         width: 100%;
+         flex-direction: column;
+     }
+     .flex2{
+         width: 100%;
+         flex-direction: column;
+     }
+     .container{
+         width: 100%;
+     }
+     .imag-portfolio img{
+         width: 100%;
+     }
+     .imag-portfolio{
+         width: 100%;
+     }
+     .header-container{
+         font-size: 20px;
+     }
+     .table-first-try{
+       font-size: 13px;
+     }
+     .table-size{
+      width: 70%;
+      margin-left: 3rem;
+     }
+    
+}
